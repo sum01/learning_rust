@@ -1,0 +1,8 @@
+#!/bin/bash
+# Deletes all compiled junk from folders
+_startdir=$(pwd)
+for _fullpath in $(find . -type d -name 'target'); do
+	_path=$(dirname "$_fullpath")
+	cd "$_path"
+	cargo clean && echo "'cargo clean' run on $_path"
+done

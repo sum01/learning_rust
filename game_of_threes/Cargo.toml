@@ -1,0 +1,6 @@
+[package]
+name = "game_of_threes"
+version = "0.1.0"
+authors = ["sum01 <sum01@protonmail.com>"]
+
+[dependencies]

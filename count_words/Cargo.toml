@@ -1,0 +1,6 @@
+[package]
+name = "count_words"
+version = "0.1.0"
+authors = ["sum01 <sum01@protonmail.com>"]
+
+[dependencies]

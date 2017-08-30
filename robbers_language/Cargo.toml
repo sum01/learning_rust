@@ -1,0 +1,7 @@
+[package]
+name = "robbers_language"
+version = "0.1.0"
+authors = ["sum01 <sum01@protonmail.com>"]
+
+[dependencies]
+regex = "*"
